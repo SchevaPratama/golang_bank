@@ -1,0 +1,6 @@
+.idea/
+main
+.env
+export_env.sh
+
+/tmp

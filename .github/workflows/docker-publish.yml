@@ -26,8 +26,8 @@ jobs:
 
     - name: Get secret file
       env:
-          DB_SECRET_PEM: ${{ secrets.DB_SECRET_PEM }}
-          run: echo "${DB_SECRET_PEM}" > ap-southeast-1-bundle.pem
+        DB_SECRET_PEM: ${{ secrets.DB_SECRET_PEM }}
+      run: echo "${DB_SECRET_PEM}" > ap-southeast-1-bundle.pem
 
     - name: Login to Amazon ECR
       id: login-ecr

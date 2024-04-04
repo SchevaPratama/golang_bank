@@ -5,8 +5,8 @@ on:
     branches: [ main ]
 
 env:
-  AWS_REGION: us-east-1
-  ECR_REPOSITORY: my-ecr-repo
+  AWS_REGION: ap-southeast-1
+  ECR_REPOSITORY: veidroz-paimon-bank
   IMAGE_TAG: latest
 
 jobs:

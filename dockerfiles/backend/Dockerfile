@@ -20,6 +20,7 @@ WORKDIR /root/
 
 # Copy the Pre-built binary file from the previous stage
 COPY --from=builder /app/main .
+COPY --from=builder /app/ap-southeast-1-bundle.pem ap-southeast-1-bundle.pem
 
 # Expose port 8080 to the outside world
 EXPOSE 8080

@@ -11,7 +11,7 @@ env:
   ECS_CLUSTER: Veidroz-BankApp
   ECS_TASK_DEFINITION: veidroz-paimon-bank-task
   CONTAINER_NAME: veidroz-bank-backend
-  IMAGE_TAG: latest
+  IMAGE_TAG: ${{ github.sha }}
 
 jobs:
   build-and-push:

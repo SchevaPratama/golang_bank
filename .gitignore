@@ -2,5 +2,5 @@
 main
 .env
 export_env.sh
-
+*.pem
 /tmp
